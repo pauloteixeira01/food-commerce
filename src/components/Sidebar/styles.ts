@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
-export const Container = styled.aside`
-  background-color: ${({theme}) => theme.colors.red};
+interface ContainerProps {
+  isMenuOpen: boolean;
+}
 
-  width: 7.75rem;
+export const Container = styled.aside<ContainerProps>`
+  background-color: ${({theme}) => theme.colors.red};
+  width: ${({isMenuOpen}) => isMenuOpen ? '16.3rem' : '7.75rem'};
   padding: 2rem 0;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: width 0.5s;
 
   button {
     background: none;
