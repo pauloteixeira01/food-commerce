@@ -11,9 +11,9 @@ export function AppRoutes() {
     <Routes>
       <Route path='/' element={<MainPage />}>
         <Route path='/' element={<Burgers />} />
-        <Route path='/pizzas' element={<Pizzas />} />
-        <Route path='/drinks' element={<Drinks />} />
-        <Route path='/desserts' element={<Desserts />} />
+        <Route path='pizzas' element={<Pizzas />} />
+        <Route path='drinks' element={<Drinks />} />
+        <Route path='desserts' element={<Desserts />} />
       </Route>
     </Routes>
   )
