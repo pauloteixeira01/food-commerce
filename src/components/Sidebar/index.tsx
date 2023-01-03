@@ -32,19 +32,19 @@ export function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/pizzas'>
+            <NavLink to='pizzas'>
               <PizzaIcon />
               <span>Pizzas</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='/drinks'>
+            <NavLink to='drinks'>
               <SodaPopIcon />
               <span>Bebidas</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='/desserts'>
+            <NavLink to='desserts'>
               <IceCreamIcon />
               <span>sobremesas</span>
             </NavLink>
