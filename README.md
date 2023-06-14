@@ -1,4 +1,4 @@
-# Food commerce
+# ![banner](front-end/src/assets/logo.svg)
 
 ## Made with
 - ReactJS
