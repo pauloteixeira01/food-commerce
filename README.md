@@ -7,6 +7,8 @@
 - Express.js
 - JavaScript with TypeScript
 - Docker
+- Prisma ORM
+- PostgreSQL
 - Asaas
 
 ## Run project
